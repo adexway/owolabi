@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: white;
+    padding: 50 px;
+    min-height: 200vh;
+
+}
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+    color: black;
+}
+.board{
+    position: relative;
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    border: 2px solid wheat;
+    border-radius: 10px;
+    padding: 30px;
+    background: white;
+    overflow: hidden;
+    
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(238, 232, 232);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-weight: bold;
+
+}
+.stastic-box{
+    background-color: blueviolet;
+    position: static;
+    left: 40px;
+    top: 20px;
+}
+.relative-box{
+    position: relative;
+    background: rgb(131, 241, 131);
+    left: 40px;
+    top: 20px;
+    margin-bottom: 50px;
+}
+.absolute-box{
+    background: rgb(230, 69, 69);
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    z-index: 10;
+}
+.fixed-box{
+    background: rgb(221, 137, 12);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    box-shadow: rgb(75, 64, 64);
+}
+.sticky-box{
+    background: rgb(56, 56, 114);
+    position: sticky;
+    top: 0;
+    padding: 15px;
+    margin-top: 60px;
+    text-align: center;
+    z-index: 5;
+
+}
+.content{
+    margin-top: 100px;
+    line-height: 1.8;
+    color: black
+}

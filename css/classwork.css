@@ -1,0 +1,22 @@
+h4{
+    /* color: rgb(26, 24, 24); */
+    font-size: 20px;
+    
+}
+
+button{
+    background-color: blue;
+    border-radius: 3px;
+    color: white;
+}
+.container1{
+    background-color: rgb(168, 168, 166);
+    border-radius: 10px;
+    width: 400px;
+    margin: 9px ;
+    padding: 60px;
+    
+}
+.contain{
+    display: flex;
+}

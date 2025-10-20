@@ -1,0 +1,32 @@
+.container{
+    background-color: red;
+    padding: 100px;
+    ;
+}
+.contain{
+    background-color: black;
+    padding: 40px;
+}
+.display{
+    display: flex
+}
+.grid{
+    background-color: white;
+    padding: 20px;
+    margin-right: 9px;
+    margin-bottom: 9px;
+}
+.block{
+    background-color: red;
+    padding: 20px;
+    margin-right: 9px ;
+    margin-bottom: 9px;
+}
+h1{background-color: red;
+    padding: 50px;
+    border-radius: 100px;
+font-style: italic;
+font-size: 100px;
+}
+body{background-color: aqua;}
+
