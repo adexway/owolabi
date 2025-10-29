@@ -1,0 +1,14 @@
+div.static{
+    position: fixed;
+    color: brown;
+    margin-top: 70px;
+
+}
+.sticky{
+    border: 3px solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    background-color: aqua;
+    
+}

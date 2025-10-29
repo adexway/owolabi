@@ -14,6 +14,8 @@ h1{
     text-align: center;
     margin-bottom: 40px;
     color: black;
+    border-radius: 2px;
+    background-color: blueviolet;
 }
 .board{
     position: relative;
@@ -25,25 +27,29 @@ h1{
     padding: 30px;
     background: white;
     overflow: hidden;
+    gap: 20px
+    
     
 }
 
 .box{
     width: 150px;
     height: 150px;
-    background-color: rgb(238, 232, 232);
+    background-color: rgb(214, 24, 24);
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 8px;
     font-weight: bold;
+    grid: 20px;
 
 }
 .stastic-box{
-    background-color: blueviolet;
+    background-color: rgb(101, 226, 43);
     position: static;
     left: 40px;
     top: 20px;
+    position: relative;
 }
 .relative-box{
     position: relative;
@@ -80,5 +86,7 @@ h1{
 .content{
     margin-top: 100px;
     line-height: 1.8;
-    color: black
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 30px;
 }
